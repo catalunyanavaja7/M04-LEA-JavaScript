@@ -55,6 +55,7 @@ var cadena = nombremio.slice(0, 6)+ texto.slice(7)
 
 console.log(cadena)
 
+
 // Ejercicio 11
 console.log("=====Ejercicio 11=====")
 
