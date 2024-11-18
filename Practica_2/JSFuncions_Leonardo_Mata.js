@@ -42,3 +42,16 @@ function fvocales (cadena) {
 }
 console.log(fvocales("Ayuida porfiplis"))
 
+// Ejercicio 6
+console.log("=====Ejercicio 6=====")
+
+function tresenters (uno , dos, tres=6) {
+    var suma = uno + dos + tres;
+    console.log(suma);
+}
+tresenters(5, 5)
+
+// Ejercicio 7
+console.log("=====Ejercicio 7=====")
+
+console.log("Ni idea de como se hace")
