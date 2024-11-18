@@ -32,3 +32,13 @@ function vardentro () {
 }
 //console.log(variablenose);
 console.log("Da error y dice que no esta definida.")
+
+// Ejercicio 5
+console.log("=====Ejercicio 5=====")
+
+function fvocales (cadena) {
+    var vocales = cadena.match(/[aeiouáéíóú]/gi);
+    return vocales? vocales.length : 0;
+}
+console.log(fvocales("Ayuida porfiplis"))
+
