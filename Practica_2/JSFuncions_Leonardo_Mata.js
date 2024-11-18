@@ -88,3 +88,28 @@ console.log("=====Ejercicio 11=====")
 const arrelQ = (varconarrel) => Math.sqrt(varconarrel).toFixed(2)
 
 console.log(arrelQ(10))
+
+// Ejercicio 12
+console.log("=====Ejercicio 12=====")
+
+const minusculas = (frase) => frase.toLowerCase()
+
+console.log(minusculas("Yow Yow YOW yow"))
+
+// Ejercicio 13
+console.log("=====Ejercicio 13=====")
+
+const valores = (valor1, valor2) => valor1 ?? valor2;
+
+console.log(valores(null, "Hola"))
+console.log(valores("Adios", null))
+
+// Ejercicio 15
+console.log("=====Ejercicio 13=====")
+
+// Esta funcion se llama a si misma, luego se suma 3 veces ella misma.
+
+const sumasuma = (equis) => equis + equis + equis
+
+console.log(sumasuma(5))
+console.log(sumasuma("5"))
