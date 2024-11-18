@@ -23,3 +23,12 @@ function formatoFecha(fecha, formato) {
     console.log(fecha + formato)
 }
 formatoFecha(hoy, ' 18/11/24');
+
+// Ejercicio 4
+console.log("=====Ejercicio 4=====")
+
+function vardentro () {
+    var variablenose = 5;
+}
+//console.log(variablenose);
+console.log("Da error y dice que no esta definida.")
