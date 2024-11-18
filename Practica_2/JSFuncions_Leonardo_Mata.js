@@ -55,3 +55,23 @@ tresenters(5, 5)
 console.log("=====Ejercicio 7=====")
 
 console.log("Ni idea de como se hace")
+
+// Ejercicio 8
+console.log("=====Ejercicio 8=====")
+
+function enters (enterouno, enterodos) {
+    return enterouno === 30 || enterodos === 30 || enterouno + enterodos === 30
+}
+console.log(enters(30, 0))
+
+// Ejercicio 9
+console.log("=====Ejercicio 9=====")
+
+function entersanonim () {
+    let enterouno = 20;
+    let enterodos = 0;
+    return enterouno === 30 || enterodos === 30 || enterouno + enterodos === 30
+}
+console.log(entersanonim())
+
+
