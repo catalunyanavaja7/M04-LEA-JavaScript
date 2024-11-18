@@ -74,4 +74,17 @@ function entersanonim () {
 }
 console.log(entersanonim())
 
+// Ejercicio 10
+console.log("=====Ejercicio 10=====")
 
+const dadesIguals = (igual1 , igual2) => igual1 === igual2;
+
+console.log(dadesIguals(5, 5))
+console.log(dadesIguals(5, "5"))
+
+// Ejercicio 11
+console.log("=====Ejercicio 11=====")
+
+const arrelQ = (varconarrel) => Math.sqrt(varconarrel).toFixed(2)
+
+console.log(arrelQ(10))
